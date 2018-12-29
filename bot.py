@@ -97,7 +97,7 @@ def handle(msg):
 
 if __name__ == "__main__":
     # Povide your bot's token
-    bot = telepot.Bot("587437196:AAGKtoViNhSK7gBePn2DtRJlvBbzXl-kBkM")
+    bot = telepot.Bot("Bot's Token")
     print('initializing bot...')
     MessageLoop(bot, handle).run_as_thread()
 
